@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DDDDDD;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#parent {
+    margin-top: 2em;
+    height: 530px;
+    width: 380px;
+    background: linear-gradient(135deg, #04ceb6 0%, #4085c0 100%);
+    border-radius: 20px;
+}
+
+#src {
+    height: 120px;
+    width: 380px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    padding-left: 15px;
+}
+
+#icon {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#icon i {
+    font-size: 1.2rem;
+}
+
+#sun {
+    height: 155px;
+    width: 380px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+#sun i {
+    font-size: 9rem;
+    color: #FED348;
+}
+
+.head1 {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+#head2 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+#pk {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+#humidity {
+    color: white;
+    display: flex;
+    /* font-size: 1.3rem; */
+}
+
+#humidity i {
+    font-size: 3rem;
+}
+
+.para {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.para2 {
+    margin-top: -5px;
+    color: white;
+}
+
+#wind {
+    display: flex;
+}
+
+#wind i {
+    font-size: 3rem;
+    color: white;
+}
+
+#last {
+    height: 100px;
+    align-items: center;
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hp {
+    margin-left: 5px;
+}
+
+#b1 {
+    margin-left: 5px;
+}
+
+#p1 {
+    font-weight: bold;
+}
+
+#p2 {
+    font-weight: bold;
+}

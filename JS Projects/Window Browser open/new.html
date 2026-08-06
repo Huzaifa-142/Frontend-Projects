@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Window</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #btn {
+            height: 50px;
+            width: 200px;
+            font-size: 30px;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: aquamarine;
+        }
+
+        #btn:hover {
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn">ClickMe</button>
+    <script>
+
+        //_blank (open browser on new page)
+        // var btn = document.getElementById("btn");
+        // btn.addEventListener("click", () => {
+        //     window.open("https://www.google.com/","_blank")
+        // })
+
+        //self (open browser on same page)
+        // var btn = document.getElementById("btn");
+        // btn.addEventListener("click", () => {
+        //     window.open("https://www.google.com/", "_self")
+        // })
+
+        var btn = document.getElementById("btn");
+        btn.addEventListener("click", () => {
+            window.open("https://www.google.com/", "", "height=400,width=400,left=500,top=150")
+        })
+    </script>
+</body>
+
+</html>

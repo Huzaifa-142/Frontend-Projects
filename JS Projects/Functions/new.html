@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+        <form action="/file.js">
+            <input type="text" name="one">
+            <input type="password" name="two">
+            <button>submit</button>
+        </form>
+        
+        <script>
+            // two types of function    1.Built-in      2-User-defined
+            // three types of user-defined
+
+            // simple function
+            // function f1()
+            // {
+            //     document.write("hello")
+            // }
+            // f1();
+
+            // parametrized function
+            // function f2(a,b)
+            // {
+            //     var c = a+b;
+            //     document.write(c);
+            // }
+            // f2(2,3);
+
+            // function with return value
+            // function f3(a,b)
+            // {
+            //     var c = a+b;
+            //     return c;
+            // }
+            // var d = f3(4,5);
+            // document.write(d);
+
+            // ES6
+            // var let const
+
+            // let fname
+            // function f1()
+            // {
+            //     let fname
+            // }
+
+            // arrow function
+            // var f5 = () => document.write("hello");
+            // f5()
+
+            // var f5 = () =>{
+            //     document.write("hello");
+            //     document.write("hello");
+            //     document.write("hello");
+            //     document.write("hello");
+            // }
+            // f5()
+
+            // anonymous function
+            // ()=>
+            // {
+                
+            // }
+
+            var arr = [1,3,5,6,8,9];
+            // document.write(arr)
+        //     for( var i=0; i<6; i++)
+        // {
+        //     document.write(arr[i])
+        // }
+
+        // foreach
+        // arr.forEach(f5);
+        // function f5(a,b)
+        // {
+        //     console.log(a, b);
+        // }
+
+        arr.forEach((a,b)=>
+    {
+        console.log(a)
+    })
+        </script>
+    </body>
+</html>

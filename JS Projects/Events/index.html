@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        .one {
+            background-color: yellow;
+            cursor: pointer;
+        }
+
+        .two {
+            font-size: 100px;
+            background-color: green;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="head" class="one">Uzair Akhtar</h1>
+    <script>
+
+        //classList.add
+        // var head = document.getElementById("head");
+        // head.addEventListener("click", () => {
+        //     head.classList.add("two");
+        // })
+
+        //classList.remove
+        // var head = document.getElementById("head");
+        // head.addEventListener("click", () => {
+        //     head.classList.remove("one");
+        // })
+
+        //classList.toggle
+        var head = document.getElementById("head");
+        head.addEventListener("click", () => {
+            head.classList.toggle("one");
+        })
+
+    </script>
+</body>
+
+</html>
