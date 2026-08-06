@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <script>
+        var num1 = Number(prompt("Enter 1st Value"))
+        var num2 = Number(prompt("Enter 2nd Value"))
+        var op = prompt("Enter Operator + - * / %")
+        if (op == "+") {
+            document.write("num1 + num2 = ", num1 + num2)
+        }
+        else if (op == "-") {
+            document.write("num1 - num2 = ", num1 - num2)
+        }
+        else if (op == "*") {
+            document.write("num1 * num2 = ", num1 * num2)
+        }
+        else if (op == "/") {
+            document.write("num1 / num2 = ", num1 / num2)
+        }
+        else if (op == "%") {
+            document.write("num1 % num2 = ", num1 % num2)
+        }
+        else if (op == "**") {
+            document.write("num1 ** num2 = ", num1 ** num2)
+        }
+        else {
+            document.write("Nothing")
+        }
+    </script>
+</body>
+
+</html>
